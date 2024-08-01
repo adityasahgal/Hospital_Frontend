@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .stricky_social{
+    background-color: white;
+} */
+
+.icon{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: -10px;
+    margin-top: 90px;
+    padding: 4px;
+    position: fixed;
+    height: 40vh;
+    width: 50px;
+    left: auto;
+    /* border: 1px solid black; */
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 5px 1px rgba(154, 154, 154, 0.5);
+}
+.facebook, .twitter, .instagram, .linkedin, .youtube{
+    /* border: 1px solid black; */
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 2px;
+}
